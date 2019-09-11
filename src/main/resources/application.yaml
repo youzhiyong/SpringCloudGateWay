@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+# spring:
+    #   cloud:
+    # gateway:
+    # routes:
+    #    - id: global_router
+    #     uri: http://127.0.0.1:8080
+    #     predicates:
+  #       - Path=/**
+
+gateWay:
+  uri: http://127.0.0.1:8080   # 转发路径
+  path: /**                    # 匹配请求路径  /** 表示所有请求
